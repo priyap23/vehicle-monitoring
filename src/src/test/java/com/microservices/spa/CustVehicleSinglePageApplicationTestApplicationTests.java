@@ -16,10 +16,8 @@ class CustVehicleSinglePageApplicationTestApplicationTests {
 	CustVehicleController controller;
 	
 	@Test
-	void checkCountOfVehiclesInDatabase() {
+	void checkCountOfVehiclesInDatabase() throws Exception{
 		assertEquals(5, controller.displayVehicleDetails().size());
 	}
 	
-	
-
 }
