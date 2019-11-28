@@ -1,0 +1,40 @@
+body {
+  background-color: lightblue;
+}
+
+table{
+	width: 1000px;
+	margin-top: 50px;
+	border-collapse: inherit;
+	margin: 0 auto; 
+}
+
+table td, th  {
+    padding: 5px;
+}
+
+h1{
+	margin-top: 35px;
+	font-size: 28px;
+	color: #B4886B;
+	font-weight: bold;
+	text-align:center;
+    line-height:150%;
+}
+
+.create-button  {
+    color: blue;
+    cursor: pointer;
+    padding: 5px;
+}
+.edit-button  {
+    padding: 2px 5px;
+    background: #25A6E1;
+    cursor: pointer;
+}
+ 
+.delete-button  {
+    padding: 2px 5px;
+    background: #CD5C5C;
+    cursor: pointer;
+}
